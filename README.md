@@ -15,7 +15,7 @@ def function(argumento):
 ```
 
 
-
+| | | |
 |---|---|---|
 |a|b|c|
 |1|2|3|
