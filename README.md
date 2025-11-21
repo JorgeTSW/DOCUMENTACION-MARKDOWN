@@ -9,7 +9,10 @@ Describan qué fue lo que hicieron para que se renderizara su matriz
 Menú --> Formato Condicional --> ...
 ```
 
-
+```python
+def function(argumento):
+    return valor
+```
 
 
 
