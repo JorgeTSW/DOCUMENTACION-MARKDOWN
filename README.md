@@ -6,7 +6,7 @@
 ---
 ### Identificación de matrices
 
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
+Matriz identidad, porque la diagonal está compuesta solo por unos y los elementos fuera de la diagonal son ceros.
 
 $$ A =
 \begin{pmatrix}
@@ -49,7 +49,30 @@ $$
 
 ---
 # OTRO EJERCICIO
-...
+## Multiplicación de una matriz por un número (escalar)
+
+$$ A =
+\begin{pmatrix}
+2 & 4 \\
+6 & 8 \\
+\end{pmatrix}
+$$
+
+Multiplica la matriz A por el número 3:
+
+$$ 3A =
+\begin{pmatrix}
+2 \cdot 3 & 4 \cdot 3 \\
+6 \cdot 3 & 8 \cdot 3 \\
+\end{pmatrix}
+$$
+
+$$ 3A =
+\begin{pmatrix}
+6 & 12 \\
+18 & 24 \\
+\end{pmatrix}
+$$
 
 
 
@@ -58,7 +81,7 @@ $$
 
 
 
----
+
 
 
 
