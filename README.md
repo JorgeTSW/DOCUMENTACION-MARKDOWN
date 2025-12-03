@@ -1,68 +1,72 @@
 # Tecnológico de Software
-## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
-## Actividad \#16 - Matrices doc
-
----
-### Identificación de matrices
-
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
-
-$$ A =
-\begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
-
-MUESTRA
-
-Calcula la suma de A y B
-
-$$ A =
-\begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-9 & 10 & 11 \\
-12 & 13 & 14 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-1 + 9 & 2 + 10 & 3 + 11 \\
-4 + 12 & 5 + 13 & 6 + 14 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-10 & 12 & 14 \\
-16 & 18 & 20 \\
-\end{pmatrix}
-$$
-
----
-# OTRO EJERCICIO
-...
-
-
-
-
-
-
-
+## Materia: Fundamentos de Álgebra
+## Alumno: David Morales Guerrero
+## Actividad #20 – Operaciones Matriciales con Excel y GitHub
 
 ---
 
+## 🎯 Objetivo
+Aplicar operaciones matriciales básicas utilizando hojas de Excel programadas para realizar:
 
+- Matriz numérica derivada de una imagen (pixel-art)
+- Suma de matrices
+- Resta de matrices
+- Multiplicación escalar
+- Transposición
 
+Además, integrar el trabajo a un repositorio de GitHub utilizando formato Markdown.
 
+---
+## Imágenes del Proyecto
 
+### Punisher (original)
+![Punisher](imagenes/Punisher1.png)
 
+### Punisher (traspuesta)
+![Punisher T](imagenes/Punisher1_T.png)
 
+---
+
+### Deadpool2 (original)
+![Deadpool2](imagenes/Deadpool2.png)
+
+### Deadpool2 (traspuesta)
+![Deadpool2 T](imagenes/Deadpool2_T.png)
+
+---
+
+### Alien3 (original)
+![Alien3](imagenes/Alien3.png)
+
+### Alien3 (traspuesta)
+![Alien3 T](imagenes/Alien3_T.png)
+
+---
+
+### Navi4 (original)
+![Navi4](imagenes/Navi4.png)
+
+### Navi4 (traspuesta)
+![Navi4 T](imagenes/Navi4_T.png)
+
+---
+
+### Laptop5 (original)
+![Laptop5](imagenes/Laptop5.png)
+
+### Laptop5 (traspuesta)
+![Laptop5 T](imagenes/Laptop5_T.png)
+
+---
+
+### Multiplicación escalar
+![Escalar 2](imagenes/Multi-Escalar_Punisher1.png)
+
+### Suma de matrices
+![Suma Punisher + Deadpool](imagenes/Suma_Punisher1_Deadpool2.png)
+
+### Resta de matrices
+![Resta Punisher - Deadpool](imagenes/Resta_Punisher1_Deadpool2.png)
+
+### Combinación lineal
+![Combinación](imagenes/Combinacion_c1A_c2B.png)
