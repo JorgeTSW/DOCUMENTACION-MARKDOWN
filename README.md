@@ -68,7 +68,7 @@ El objetivo es aprender a calcular y analizar los determinantes de matrices, com
 $$ A = \begin{bmatrix}
 5 & 2 &\\
 3 & 1 & \\
-\end{bmatrix}  $$ = 
+\end{bmatrix}  $$ 
 $$
 \text{Det} \left( \begin{pmatrix} 5 & 2 \\ 3 & 1 \end{pmatrix} \right) = (5)(1) - (2)(3) = 5 - 6 = -1
 $$
@@ -80,7 +80,7 @@ $$
 $$ B = \begin{bmatrix}
 -1 & 4 & \\
 2 & -8 & \\
-\end{bmatrix}  $$ = 
+\end{bmatrix}  $$ 
 $$
 \text{Det} \left( \begin{pmatrix} -1 & 4 \\ 2 & -8 \end{pmatrix} \right) = (-1)(-8) - (4)(2) = 8 - 8 = 0
 $$
@@ -92,7 +92,7 @@ $$
 $$ C = \begin{bmatrix}
 6 & 9 & \\
 2 & 3 & \\
-\end{bmatrix}  $$ =
+\end{bmatrix}  $$ 
 $$
 \text{Det} \left( \begin{pmatrix} 6 & 9 \\ 2 & 3 \end{pmatrix} \right) = (6)(3) - (9)(2) = 18 - 18 = 0
 $$
