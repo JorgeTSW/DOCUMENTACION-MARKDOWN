@@ -1,68 +1,51 @@
 # Tecnológico de Software
-## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
-## Actividad \#16 - Matrices doc
-
----
-### Identificación de matrices
-
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
-
-$$ A =
-\begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
-
-MUESTRA
-
-Calcula la suma de A y B
-
-$$ A =
-\begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-9 & 10 & 11 \\
-12 & 13 & 14 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-1 + 9 & 2 + 10 & 3 + 11 \\
-4 + 12 & 5 + 13 & 6 + 14 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-10 & 12 & 14 \\
-16 & 18 & 20 \\
-\end{pmatrix}
-$$
-
----
-# OTRO EJERCICIO
-...
-
-
-
-
-
-
-
+## Materia: Fundamentos de Álgebra
+## Alumno: David Morales Guerrero
+## Actividad #20 – Operaciones Matriciales con Excel y GitHub
 
 ---
 
+## 🎯 Objetivo
+Aplicar operaciones matriciales básicas utilizando hojas de Excel programadas para realizar:
 
+- Matriz numérica derivada de una imagen (pixel-art)
+- Suma de matrices
+- Resta de matrices
+- Multiplicación escalar
+- Transposición
 
+Además, integrar el trabajo a un repositorio de GitHub utilizando formato Markdown.
 
+---
 
+## 📂 Archivos incluidos en el proyecto
 
+### ✔ `Punisher`
+Imagen en pixel-art reconstruida con colores reales (negro, blanco y rojo).
 
+### ✔ `Punisher_matrix`
+Conversión de la imagen a matriz numérica:
+- Negro = 1  
+- Blanco = 0  
+- Rojo = 2  
+
+### ✔ `Punisher_sum`
+Suma total de los elementos de la matriz.
+
+### ✔ `Punisher_resta`
+Matriz A multiplicada por -1.
+
+### ✔ `Punisher_scalar2`
+Matriz A multiplicada por el escalar **2**.
+
+### ✔ `transponer`
+Versión transpuesta del pixel-art original.
+
+---
+
+## 🧮 Programación de la hoja de Excel
+
+### **1. Conversión de colores a números**
+
+```excel
+=SI(Punisher!A1="#000000",1, SI(Punisher!A1="#FF0000",2,0))
