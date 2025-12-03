@@ -1,3 +1,9 @@
+# Tecnológico de Software
+## Materia: Fundamentos de álgebra
+## Alumno: Manuel Jesus Tello May
+## Grupo: B
+## Fecha: 03/12/2025
+
 # Resolución de sistemas de ecuaciones lineales
 
 Este documento resume y demuestra de forma técnica y paso a paso la resolución de varios sistemas de ecuaciones lineales utilizando métodos matriciales: eliminación de Gauss, Gauss–Jordan, matriz inversa y regla de Cramer, así como la clasificación de sistemas según su tipo de solución.
