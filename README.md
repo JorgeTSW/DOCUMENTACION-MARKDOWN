@@ -8,12 +8,13 @@
 
 Identifica el tipo de cada matriz:
 
-math
+
+```math
 A = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix},\quad
 B = \begin{pmatrix} 3 & 0 & 0 \\ 0 & -2 & 0 \\ 0 & 0 & 5 \end{pmatrix},\quad
 C = \begin{pmatrix} 2 & 1 & 4 \\ 1 & 3 & 5 \\ 4 & 5 & 6 \end{pmatrix},\quad
 D = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 4 & 5 \\ 0 & 0 & 6 \end{pmatrix}
-
+```
 
 ---
 
@@ -42,9 +43,9 @@ Matriz *triangular superior* de orden $3 \times 3$.
 No es simétrica ni diagonal.  
 Su determinante es:
 
-math
+```math
 \det(D) = 1 \cdot 4 \cdot 6 = 24 \neq 0
-
+```
 
 Por lo tanto, es *invertible*.
 
@@ -61,10 +62,10 @@ Se reconocieron las propiedades que distinguen a las matrices identidad, diagona
 
 Dadas las matrices:
 
-math
+```math
 A = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix},\quad
 B = \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix}
-
+```
 
 Calcula:  
 a) $A + B$  
@@ -77,30 +78,30 @@ e) $A^T$
 
 #### a) Suma de matrices $A + B$
 
-math
+```math
 A + B
 = \begin{pmatrix} 2+5 & -1+2 \\ 3+(-1) & 4+3 \end{pmatrix}
 = \begin{pmatrix} 7 & 1 \\ 2 & 7 \end{pmatrix}
-
+```
 
 ---
 
 #### b) Operación $2A - B$
 
-math
+```math
 2A - B
 = 2\begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}
   - \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix}
 = \begin{pmatrix} 4 & -2 \\ 6 & 8 \end{pmatrix}
   - \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix}
 = \begin{pmatrix} -1 & -4 \\ 7 & 5 \end{pmatrix}
-
+```
 
 ---
 
 #### c) Producto $AB$
 
-math
+```math
 AB
 = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}
   \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix}
@@ -109,13 +110,13 @@ AB
   (3)(5)+(4)(-1)  & (3)(2)+(4)(3)
   \end{pmatrix}
 = \begin{pmatrix} 11 & 1 \\ 11 & 18 \end{pmatrix}
-
+```
 
 ---
 
 #### d) Producto $BA$
 
-math
+```math
 BA
 = \begin{pmatrix} 5 & 2 \\ -1 & 3 \end{pmatrix}
   \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}
@@ -124,17 +125,17 @@ BA
   (-1)(2)+(3)(3) & (-1)(-1)+(3)(4)
   \end{pmatrix}
 = \begin{pmatrix} 16 & 3 \\ 7 & 13 \end{pmatrix}
-
+```
 
 ---
 
 #### e) Transpuesta de $A$
 
-math
+```math
 A^T
 = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}^T
 = \begin{pmatrix} 2 & 3 \\ -1 & 4 \end{pmatrix}
-
+```
 
 ---
 
@@ -149,11 +150,11 @@ Se comprobó que el producto de matrices *no es conmutativo* ($AB \neq BA$) y qu
 
 Dadas las matrices:
 
-math
+```math
 A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix},\quad
 B = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix},\quad
 C = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
-
+```
 
 Verifica que $(AB)C = A(BC)$
 
@@ -161,7 +162,7 @@ Verifica que $(AB)C = A(BC)$
 
 #### Paso 1: Calcular \(AB\)
 
-math
+```math
 AB
 = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
   \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}
@@ -170,13 +171,13 @@ AB
   (3)(2)+(4)(1) & (3)(0)+(4)(3)
   \end{pmatrix}
 = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix}
-
+```
 
 ---
 
 #### Paso 2: Calcular \((AB)C\)
 
-math
+```math
 (AB)C
 = \begin{pmatrix} 4 & 6 \\ 10 & 12 \end{pmatrix}
   \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
@@ -185,13 +186,14 @@ math
   (10)(1)+(12)(0) & (10)(1)+(12)(2)
   \end{pmatrix}
 = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
-
+```
 
 ---
 
 #### Paso 3: Calcular \(BC\)
 
-math
+
+```math
 BC
 = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}
   \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
@@ -200,13 +202,13 @@ BC
   (1)(1)+(3)(0) & (1)(1)+(3)(2)
   \end{pmatrix}
 = \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix}
-
+```
 
 ---
 
 #### Paso 4: Calcular \(A(BC)\)
 
-math
+```math
 A(BC)
 = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
   \begin{pmatrix} 2 & 2 \\ 1 & 7 \end{pmatrix}
@@ -215,22 +217,23 @@ A(BC)
   (3)(2)+(4)(1) & (3)(2)+(4)(7)
   \end{pmatrix}
 = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
-
+```
 
 ---
 
 #### Verificación  
 
-math
+```math
 (AB)C = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix},\quad
 A(BC) = \begin{pmatrix} 4 & 16 \\ 10 & 34 \end{pmatrix}
-
+```
 
 Por lo tanto:
 
-math
-(AB)C = A(BC)
 
+```math
+(AB)C = A(BC)
+```
 
 ---
 
